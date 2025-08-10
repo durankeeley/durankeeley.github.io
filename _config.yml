@@ -1,1 +1,48 @@
-theme: minima
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Pacific/Auckland
+toc: true
+
+title: Duran Keeley
+tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>As an engineer who has worked in both development and operations, I'm passionate about building high-quality software and the efficient cloud systems that power it.</div><div style='padding-bottom: 10px;'></div><div>Join me as I explore Cloud Engineering, DevOps, SRE, and FinOps, sharing insights from my work with Azure and Terraform.</div><div style='padding-bottom: 10px;'></div><div>My perspective is built on a real-world journey from traditional servers to modern serverless architectures.</div>"
+description: >-
+  Blog from Duran Keeley, a Cloud and Software Engineer specializing in DevOps, FinOps, and SRE. Duran shares his hands-on experience building and automating resilient cloud infrastructure.
+
+avatar: '/assets/img/profile.jpeg'
+github:
+  username: durankeeley
+social:
+  name: Duran Keeley
+  links:
+    - https://www.linkedin.com/in/durankeeley 
+    - https://github.com/durankeeley
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# defaults:
+#   - scope:
+#       path: ''
+#       type: posts
+#     values:
+#       layout: post
+#       comments: false
+#       toc: true
+#       permalink: /:categories/:title/
+
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
