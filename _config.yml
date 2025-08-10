@@ -1,1 +1,19 @@
-theme: minima
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Pacific/Auckland
+toc: true
+
+title: Duran Keeley
+tagline: <div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>As an engineer who has worked in both development and operations, I'm passionate about building high-quality software and the efficient cloud systems that power it.</div><div style='padding-bottom: 10px;'></div><div>Join me as I explore Cloud Engineering, DevOps, SRE, and FinOps, sharing insights from my work with Azure and Terraform.</div><div style='padding-bottom: 10px;'></div><div>My perspective is built on a real-world journey from traditional servers to modern serverless architectures.</div>
+description: >-
+  Blog from Duran Keeley, a Cloud and Software Engineer specializing in DevOps, FinOps, and SRE. Duran shares his hands-on experience building and automating resilient cloud infrastructure.
+
+avatar: 'https://gravatar.com/avatar/222343d59f5cb02068d5f965c2026f21?size=256'
+github:
+  username: durankeeley
+social:
+  name: Duran Keeley
+  links:
+    - https://www.linkedin.com/in/durankeeley 
+    - https://github.com/durankeeley
